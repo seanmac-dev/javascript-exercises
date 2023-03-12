@@ -4,7 +4,7 @@ const repeatString = function (word, times) {
   for (let i = 0; i < times; i++) {
     string += word;
   }
-  return string;
+  return repeatString;
 };
-
+console.log("hey", 10);
 module.exports = repeatString;
